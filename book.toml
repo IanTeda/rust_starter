@@ -1,0 +1,10 @@
+[book]
+title = "Rust Starter"
+authors = ["Ian Teda"]
+description = "A rust starter repository"
+src = "docs"
+language = "en"
+text-direction = "ltr"
+
+[rust]
+edition = "2021"   # the default edition for code blocks
