@@ -1,0 +1,18 @@
+{
+    "cSpell.ignoreWords": [
+        "actix",
+        "chrono",
+        "clippy",
+        "datetime",
+        "devcontainer",
+        "reqwest",
+        "rustc",
+        "sqlx",
+        "thiserror",
+        "timestamptz",
+    ],
+    "cSpell.words": [
+        "proto",
+        "rustup"
+    ],
+}

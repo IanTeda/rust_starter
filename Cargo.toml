@@ -3,6 +3,13 @@ name = "rust_starter"
 authors = ["Ian Teda <ian@teda.id.au>"]
 version = "0.1.0"
 edition = "2021"
+description = "A Rust starter repository"
+documentation = "https://ianteda.github.io/personal_ledger/"
+homepage = "https://github.com/IanTeda/rust_starter"
+repository = "https://github.com/IanTeda/rust_starter"
+readme = "README.md"
+license-file = "LICENSE.txt"
+keywords = ["personal", "finance", "ledger", "money", "tracking"]
 
 [dependencies]
 thiserror = "1"

@@ -1,9 +1,9 @@
-# By Default, Ignore any .*, except .gitignore
+# By Default, Ignore any .*, except for:
 .*
 !.gitignore
-
-# Allow vscode 
-# !.vscode
+!.github
+!.devcontainer
+!.vscode
 
 # By default
 _*
