@@ -1,0 +1,27 @@
+###############################################################################
+## CARGO MAKEFILE
+## Rust task runner and build tool.
+##
+## https://github.com/sagiegurari/cargo-make
+## $ cargo install --force cargo-make
+## ############################################################################
+
+## https://github.com/watchexec/cargo-watch
+## $ cargo make watch
+[tasks.watch]
+install_crate = "cargo-watch"
+command = "cargo"
+args = [
+    "watch",
+    "--clear",
+    "--quiet",
+    "--exec", "run",
+    "--watch", "src"
+]
+
+## https://github.com/xd009642/tarpaulin
+## $ cargo make tarpaulin
+[tasks.coverage]
+install_crate = "cargo-tarpaulin"
+command = "cargo"
+args = ["tarpaulin", "--ignore-tests"]
