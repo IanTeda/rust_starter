@@ -9,7 +9,14 @@ homepage = "https://github.com/IanTeda/rust_starter"
 repository = "https://github.com/IanTeda/rust_starter"
 readme = "README.md"
 license-file = "LICENSE.txt"
-keywords = ["personal", "finance", "ledger", "money", "tracking"]
+keywords = ["rust", "starter", "boilerplate"]
+
+[lib]
+path = "src/lib.rs"
+
+[[bin]]
+name = "rust_starter"
+path = "src/main.rs"
 
 [dependencies]
 thiserror = "1"

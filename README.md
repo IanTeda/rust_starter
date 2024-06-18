@@ -58,8 +58,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This Repository builds on and is forked from [jeremychone-channel/rust-base](https://github.com/jeremychone-channel/rust-base). I have put it together as I learned my way through Rust and forms a good
-starting point for what most Rust projects required.
+This Repository is forked from and builds on [jeremychone-channel/rust-base](https://github.com/jeremychone-channel/rust-base). I have put it together as I learned my way through Rust and forms a good starting point for what most Rust projects required.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -177,6 +176,7 @@ Project Link: [https://github.com/IanTeda/personal_ledger](https://github.com/Ia
 
 * [YouTube Video](https://www.youtube.com/watch?v=oxx7MmN4Ib0&list=PL7r-PXl6ZPcCIOFaL7nVHXZvBmHNhrh_Q)
 * [jeremychone-channel/rust-base](https://github.com/jeremychone-channel/rust-base)
+* [Blessed RS](https://blessed.rs/crates) - An unofficial guide to the Rust ecosystem
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -1,6 +1,4 @@
-
-
-// #![allow(unused)] // For beginning only.
+//-- ./src/main.rs
 
 use crate::prelude::*;
 use std::fs::read_dir;
@@ -9,6 +7,9 @@ mod error;
 mod prelude;
 mod utils;
 
+// #![allow(unused)] // For beginning only.
+
+/// Binary entry point
 fn main() -> Result<()> {
 	println!("Hello, world!");
 
