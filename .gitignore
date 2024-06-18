@@ -40,4 +40,4 @@ report.*.json
 *.ico
 *.jpeg
 *.jpg
-*.png
+# *.png
